@@ -1,2 +1,2 @@
-#1/bin/bash
-gcc -C $CFILE $CFILE.c 
+#!/bin/bash
+gcc -C $CFILE $CFILE.c  
