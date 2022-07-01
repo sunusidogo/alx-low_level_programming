@@ -1,9 +1,8 @@
 # include <stdio.h>
 
 /**
- * Main - print with proper grammer
- *
- * return 0 (Success)
+ * Main - print with proper grammar
+ * Return: 0 if exited properly, non-zero otherwise
  *
  */
 
