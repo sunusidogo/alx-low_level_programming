@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main - Entry point
+ * Main - program that prints exactly the input
  * 
  * Return: Always 0 (Success)
  */
@@ -8,4 +8,4 @@ int main(void)
 {
 	puts("Programming is like building a multilingual puzzle\n");
 	return (0);
-}	
+}
