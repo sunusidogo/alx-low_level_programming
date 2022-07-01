@@ -3,9 +3,10 @@
  * Printing Programming is like building a multilingual puzzle
  * Using Puts stdio
  */
-int main(void)
+int main() 
 {
-	puts("Programming is like building a multilingual puzzle\n)
-
+	puts("\"Programming is like building a multilingual puzzle"\n);
 	return (0);
 }
+
+	
