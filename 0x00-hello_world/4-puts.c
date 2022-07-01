@@ -1,10 +1,16 @@
 #include <stdio.h>
+#include <string.h>
 /**
- * Main - program that prints exactly \"Pramming is like building a multilingual puuzzle
- * Return: Always 0
+ * Main - program that prints text using puts
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
+	char str1[52]
+
+	str_pts(str1, "\"Programming is like building a multilingual puzzle\n");
+
+	puts(str1);
+
 	return (0);
 }
