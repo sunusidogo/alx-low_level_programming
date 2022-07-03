@@ -12,7 +12,7 @@ int main(void)
 	{
 	if (alphabet == 'e' || alphabet == 'q')
 	putchar(alphabet);
-	else;
+	else
 	continue;
 	putchar('\n');
 	}
