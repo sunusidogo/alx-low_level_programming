@@ -8,13 +8,10 @@
  */
 void main(void)
 {
-	char chl = 'a';
-	char chu = 'A';
+	char alphabet;
 
-	for (ch <= 'z';)
-		putchar("%c\n", chl++);
-	for (ch <= 'Z';)
-		putchar("%c\n", chu++);
-
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+		putchar(alphabet);
+	putchar('\n');
 	return (0);
 }
