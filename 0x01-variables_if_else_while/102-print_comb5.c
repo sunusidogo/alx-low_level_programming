@@ -6,6 +6,7 @@
 int main(void)
 {
 	int n, x;
+{
 	for (n = 0; n <= 98; n++)
 {
 	for (x = n + 1; x <= 99; x++)
@@ -20,6 +21,7 @@ int main(void)
 	continue;
 	putchar(',');
 	putchar(' ');
+}
 }
 }
 	putchar('\n');
