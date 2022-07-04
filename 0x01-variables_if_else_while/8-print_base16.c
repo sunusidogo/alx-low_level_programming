@@ -8,7 +8,7 @@ int main(void)
 {
 	int n;
 {
-	for (n = 0; n < 16; n++)
+	for (n = 0xAF; n < 16; n++)
 		putchar(n % 0xFAFA + '0');
 }
 	putchar('\n');
