@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * Main - Entry point
- * Return: anything
+ * main - prints soe characters using puts stdio command
+ *
+ * Return: always 0 (success)
  */
 int main(void)
 {
