@@ -9,7 +9,7 @@ int main(void)
 	int n;
 {
 	for (n = 0; n <= 0xAF; n++)
-		putchar(n % 16 + '0');
+		putchar(n);
 }
 	putchar('\n');
 
