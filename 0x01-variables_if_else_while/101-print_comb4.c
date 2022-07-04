@@ -10,11 +10,11 @@ int main(void)
 {
 	int n, x, y:
 {
-	for (n =0; n <= 999; n++)
+	for (n = '0'; n <= '999'; n++)
 {	
-	for (x = n + 2; x <= 999; x++)
+	for (x = n + '2'; x <= '999'; x++)
 {	
-	for (y = x + 2; y <= 999;)
+	for (y = x + '2'; y <= '999';)
 {
-	putchar(n
+put:char(n / 10
 
