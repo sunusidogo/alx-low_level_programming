@@ -6,20 +6,16 @@
  */
 int main(void)
 {
-	int n, y;
+	int n;
 	{
-		for (n = 0; n <= 8; n++)
+		for (n = 0; n <= 9; n++)
 	{
-		for (y = n + 1; y <= 9; y++)
-
 		putchar((n / 10) + '0');
-		putchar((y / 10) + '0');
 
-		if (n == 8 && y == 9)
-		continue;
 		putchar(',');
 		putchar(' ');
 	}
+		putchar('\n');
 	}
 		return (0);
 }
