@@ -14,6 +14,7 @@ void  print_alphabet_x10(void)
 		while (newline <= 11)
 		{
 			_putchar('\n');
+			newline++;
 		}
 
 		_putchar(alphabet);
