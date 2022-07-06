@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main - check the code
+ * main - prints alphabets in lowercase
  *
- * Funtion: always 0
  */
 void print_alphabet(void)
 {
@@ -11,6 +10,7 @@ void print_alphabet(void)
 	for (alphabet = 'a'; alphabet < 'z'; alphabet++)
 	{
 	_putchar(alphabet);
-	_putchar('\n');
 	}
+	_putchar('\n');
+	
 }
