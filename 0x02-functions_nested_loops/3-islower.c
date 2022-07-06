@@ -2,13 +2,13 @@
 /**
  * main - function that checks for lowercase character.
  *
- * Function: always 0 
+ * Return: 0
  */
 int _islower(int c)
 {
-	int ch = 'c';
+	int c;
 
-	if (islower(ch))
+	if (c >= 97 && c <= 122)
 	{
 	_putchar(1);
 	}
