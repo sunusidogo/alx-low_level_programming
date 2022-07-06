@@ -1,7 +1,12 @@
 #include "main.h"
+/**
+ * main - prints _putchar, followed by a new line.
+ * calls other function
+ *
+ * Return: 0
+ */
 
-
-void print_putchar(void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
