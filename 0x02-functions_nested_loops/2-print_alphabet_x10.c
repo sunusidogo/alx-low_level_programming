@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - print alphabetas in lowercase 10 times
  *
- * function: always 0 (success)
+ * Function: always 0 (success)
  */
 void  print_alphabet_x10(void)
 {
@@ -20,5 +20,4 @@ void  print_alphabet_x10(void)
 	alphabet++;
 	}
 }
-	return (0);
 }
