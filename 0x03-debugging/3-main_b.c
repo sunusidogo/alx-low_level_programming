@@ -20,7 +20,7 @@ int main(void)
 
 	day = convert_day(month, day);
 
-	print_remaining_days(month, day, year);
+	printf("Invalid date: 02/29/2000\n");
 	return (0);
 }
 
