@@ -7,18 +7,16 @@
  *
  * Description: on error retun -1, no error return 1 or 0
  */
+int _isalpha(int c)
 {
-	int c;
+
 	if (c >= 65 && c <= 122)
 	{
-	_putchar(1);
+	return (1);
 	}
 	else
 	{
-	_putchar(0);
-	}
-	_putchar('\n');
-
 	return (0);
+	}
 }
 
