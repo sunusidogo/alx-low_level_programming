@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * fizz_buzz - program that prints numbers to 100.
  * if a number is multiple of 3 print fizz
