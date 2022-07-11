@@ -8,11 +8,10 @@
  */
 int add(int n1, int n2)
 {
-	int s = 0;
+	int s;
 
-	if (s == n1 + n2)
-	
+	for (s = 0; s == n1 + n2;)
+	_putchar(s);
 	_putchar('\n');
-	
-	return (s);
+	return (0);
 }
