@@ -8,10 +8,12 @@
  * Return: 0
  */
 void print_rev(char *s)
-{
-	if (*s)
-		print_rev(s + 1);
-	_putchar(*s);
+{	int len, i;
 
+	len = strlen(s);
 
+	for (i = len; i >= 0; i--)
+	_putchar(*(s + i));
+
+	_putchar('\n');
 }
