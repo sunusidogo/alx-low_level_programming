@@ -4,19 +4,18 @@
  * reverse_array - function that return array  reverse
  * @a: parameter
  * @n: parameter
- *Return: 0
  *
+ *Return: 0
  */
 void reverse_array(int *a, int n)
 {
-	int i;
+	int i, j, tmp;
 
-	a  = &a[0];
+	j = n - 1;
 
-	for (i = 0; i < n; i++)
-	a++;
-	a = &a[n - 1];
-
-	for (i = n - 1; i > 0; i--)
-	a--;
+	for (i = 0; i < n / 2; i++)
+	{
+		tmp = a[i];
+		a[i] = a[j];
+		a[j--] = tmp;								}
 }
