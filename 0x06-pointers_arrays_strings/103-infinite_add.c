@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * infinite_add - a function that adds two numbers
  * @n1: a char pointer given by main that represents a num
  * @n2: a char pointer given by main that represents a num
@@ -34,32 +33,31 @@
  *
  *	a number with a 1 in the tens digit we store that in tens
  *
- * 	we then incluide that 1 in the sum and move on
+ *	we then incluide that 1 in the sum and move on
  *
  * I: We had to swap because at step E we added and made our r[k]
  *
- * 	array from the end to the beginning instead of to the beginning
+ *	array from the end to the beginning instead of to the beginning
  *
- * 	to the end. this helped us deal with carry on ints but
+ *	to the end. this helped us deal with carry on ints but
  *
- * 	the downside is we need to swap later on which is tedious.
+ *	the downside is we need to swap later on which is tedious.
  *
- * 	another way of going forward to back and not having to deal with swaps
+ *	another way of going forward to back and not having to deal with swaps
  *
- * 	would be a complex r[i-1] += 1 type of situation but that can be
+ *	would be a complex r[i-1] += 1 type of situation but that can be
  *
  *	iffy with out of bounds array issues and some other stuff
  *
  * J: So if we had k reach the size_r but we still had more i and j indicies
  *
- * 	to add then that is an error and we didnt finish so return 0
+ *	to add then that is an error and we didnt finish so return 0
  *
  * K: k was our buffer size counter. so it is only fitting we had to put the
  *
  *	last char with the k counter as the null char. then we k--
  *
  *	so we can start at the very last index right next tot the null char
- *
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
@@ -80,8 +78,11 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 
 	return (0);
 
-	for ( ; k < size_r; i--, j--, k++)/* E */					{
-		sum = tens;									if (i >= 0)/* F */									sum += n1[i] - '0';
+	for ( ; k < size_r; i--, j--, k++)/* E */
+	{
+		sum = tens;
+		if (i >= 0)/* F */
+			sum += n1[i] - '0';
 		if (j >= 0)
 			sum += n2[j] - '0';
 		if (i < 0 && j < 0 && sum == 0)/* G */
