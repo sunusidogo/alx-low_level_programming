@@ -1,6 +1,5 @@
-#include <stdio.h>                                         
-#include <stdlib.h>                                        
-#include <limits.h> 
+#include <stdio.h>
+
 /**
  * main - prints all possible combination fo thre digit numbers
  *
