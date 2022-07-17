@@ -2,19 +2,34 @@
 #include <stdlib.h>                                        
 #include <limits.h> 
 /**
- * main - program that prints all possible different combinations of three digits.
- * 
+ * main - prints all possible combination fo thre digit numbers
+ *
  * Return: always 0 (success)
  */
 int main(void)
 {
-	int n, x, y:
-{
-	for (n = '0'; n <= '999'; n++)
-{	
-	for (x = n + '2'; x <= '999'; x++)
-{	
-	for (y = x + '2'; y <= '999';)
-{
-put:char(n / 10
+	int n, m, l;
 
+	for (n = 48; n < 58; n++)
+	{
+		for (m = 49; m < 58; m++)
+		{
+			for (l = 50; l < 58; l++)
+			{
+				if (l > m && m > n)
+				{
+					putchar(n);
+					putchar(m);
+					putchar(l);
+					if (n != 55 || m != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
+}
