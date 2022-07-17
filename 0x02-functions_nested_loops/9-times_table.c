@@ -1,50 +1,38 @@
 #include "main.h"
 /**
  * times_table - print a time table
- * @n: variable n
+ *
  * Return: 0
  *
  */
 void times_table(void)
 {
-	int n,  row, col, prod;
+	int i, j, k;
 
-	n = 0;
-	if ((n >= 0) && (n < 15))
+	for (i = 0; i < 10; i++)
 	{
-		for (row = 0; row <= n; row++)
+		for (j = 0; j < 10; j++)
 		{
-			for (col = 0; col <= n; col++)
+			k = j * i;
+			if (j == 0)
 			{
-				prod = row * col;
-				if  (prod <= 9)
-					if (col != 0)
-					{
-						_putchar (',');
-						_putchar (' ');
-						_putchar (' ');
-						_putchar (' ');
-					}
-				_putchar('0' + prod);
+				_putchar(k + '0');
 			}
-			if (prod > 99)
+			if (k < 10 && j != 0)
 			{
-				_putchar (',');
-				_putchar (' ');
-				_putchar ('0' + (prod / 100));
-				_putchar ('0' + ((prod / 10) % 10));
-				_putchar ('0' + (prod % 10));
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(k + '0');
 			}
-			else
+			else if (k >= 10)
 			{
-				_putchar (',');
-				_putchar (' ');
-				_putchar (' ');
-				_putchar ('0' + (prod / 10));
-				_putchar ('0' + (prod % 10));
+				_putchar(',');
+				_putchar(' ');
+				_putchar((k / 10) + '0');
+				_putchar((k % 10) + '0');
 			}
 		}
 		_putchar('\n');
 	}
 }
-
