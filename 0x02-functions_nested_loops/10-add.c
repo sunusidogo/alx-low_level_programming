@@ -2,7 +2,7 @@
 /**
  * add - add the value o tow numbers and print the result
  * @a: number 1
- * @nb: number 2
+ * @b: number 2
  *
  *Return: Sum
  */
