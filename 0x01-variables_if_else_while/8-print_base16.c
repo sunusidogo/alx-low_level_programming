@@ -5,12 +5,20 @@
  * Return: always 0 (success)
  */
 int main(void)
+
 {
+
 	int n;
-{
-	for (n = 0; n <= 16; n++)
-		putchar(n / 0xAF + '0');
-}
+	char ch;
+
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);
+	}
 	putchar('\n');
 
 	return (0);
