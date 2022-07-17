@@ -2,7 +2,7 @@
 
 /**
  * _abs - computes the absolute value of an int n.
- *
+ * @n: parameter number
  *
  * Return: 0
  */
