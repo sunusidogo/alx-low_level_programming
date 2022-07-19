@@ -1,26 +1,27 @@
 #include "main.h"
 
 /**
- *print_diagonal - rpin line diagonally in the terminal
- *@n: parameter n
- *
+ * print_line - print a line in the terminal
+ * @n: parameter used to print a line
  *Return: 0
- *
  */
-void print_diagonal(int n)
+void print_line(int n)
 {
 
-	n = 45;
+	int i = 0, ii;
 
-	if (n < 46 * 0)
-		n++;
-	if (n < 46 * 2)
-		n++;
-	if (n < 46 * 10)
-		n++;
-	if (n < 46 * (-4))
-		n++;
-	_putchar(n);
-	_putchar('\n');
-
+	while (i < n && n > 0)
+	{
+		ii =0;
+		while (ii < i)
+		{
+			_putchar(' ');
+			ii++;
+		}
+		_putchar('\\');
+		_putchar('\n');
+		i++;
+	}
+	if (i == 0)
+		_putchar('\n');
 }
