@@ -2,27 +2,26 @@
 
 /**
  * print_square - print square shape using # character.
- * @size: is the size of the squre
+ * @n: is the size of the squre
  *
  * Return: 0
  */
-void print_square(int size)
+void print_square(int n)
 {
-	int i;
-	int j;
 
-	for (i = 1; i <= size; i++)
+	int i = 0, ii;
+
+	while (i < n && n > 0)
 	{
-		for (j = 1; j <= size; j++)
+		ii = 0;
+		while (ii < n)
 		{
-			if (size > 0)
-			_putchar(35);
-
-			else
-
-			_putchar('\n');
+			_putchar('#');
+			ii++;
 		}
 		_putchar('\n');
+		i++;
 	}
-
+	if (i == 0)
+		_putchar('\n');
 }
