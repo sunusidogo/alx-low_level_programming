@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_line - print a line in the terminal
- * @n: parameter used to print a line
+ * print_diagonal - print a diagonal line in the terminal
+ * @n: parameter used to print  diagonal line
  *Return: 0
  */
-void print_line(int n)
-{
 
+void print_diagonal(int n)
+{
 	int i = 0, ii;
 
 	while (i < n && n > 0)
