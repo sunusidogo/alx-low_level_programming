@@ -2,7 +2,7 @@
 
 /**
  * _print_rev_recursion - Print characters in reverse.
- * @c: characters to print in reverse
+ * @s: characters to print in reverse
  *
  * Return: 0
  */
