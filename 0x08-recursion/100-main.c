@@ -14,7 +14,8 @@ int main(void)
 	int r;
 
 	r = is_palindrome("level");
-	rintf("%d\n", r);
+	printf("%d\n", r);
+	_putchar('\n');
 	r = is_palindrome("redder");
 	printf("%d\n", r);
 	r = is_palindrome("test");
